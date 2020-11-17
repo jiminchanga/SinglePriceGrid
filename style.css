@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: #E6EFF6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+    padding: 20px;
+    
+}
+
+.container {
+    background-color: #fff;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 10px;
+    font-size: 18px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    overflow: hidden;
+    width: 800px;
+}
+
+.container-content{
+    padding: 35px;
+}
+
+.container-content p{
+    line-height: 1.6;
+    color: hsl(218, 22%, 67%);
+}
+.container h1 {
+    color: #31ADAD;
+}
+
+.container h2 {
+    color: #BFD161;
+}
+
+.main-text {
+    margin-top: 1rem;
+    color: #31ADAD;
+    opacity: .7;
+}
+
+.row {
+    display: flex;
+}
+
+.row > div {
+    flex: 1;
+}
+
+.monthly-subscription {
+    background-color: #2BB3B1;
+    color: #fff;
+}
+
+.monthly-subscription p {
+    line-height: 1.9rem;
+    margin-top: 1rem;
+    color: #fff;
+}
+
+.price {
+    font-size: 2rem;
+    font-weight: 700;
+   
+    
+}
+.span-text {
+    opacity: 70%;
+    margin: 
+   
+}
+
+
+
+.monthly-subscription div {
+    margin-bottom: 1rem;
+}
+.why-us{
+    background-color: #4ABEBD;
+    color: #fff;
+}
+
+.why-us p {
+    line-height: 1.4;
+    opacity: 60%;
+    margin-top: 1rem;
+    color: white
+    
+}
+.btn {
+    background-color:#BFD161 ;
+    width: 100%;
+    padding: 15px 0;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+}
+
+.btn a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+.attribution {
+    font-size: 15px;
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 30px;
+}
+
+.attribution a {
+    text-decoration: none;
+}
